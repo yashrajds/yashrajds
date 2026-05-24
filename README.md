@@ -4,13 +4,13 @@
 
 <p align="center">
   <a href="https://github.com/yashrajds?tab=repositories">
-    <img alt="Projects" src="https://img.shields.io/badge/PROJECTS-111111?style=for-the-badge&logo=github&logoColor=white&labelColor=ff6f9f" />
+    <img alt="Projects" src="./assets/badge-projects.svg" />
   </a>
   <a href="https://www.linkedin.com/in/yashrajdm">
-    <img alt="LinkedIn" src="https://img.shields.io/badge/LINKEDIN-111111?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=ff6f9f" />
+    <img alt="LinkedIn" src="./assets/badge-linkedin.svg" />
   </a>
   <a href="https://www.instagram.com/ysrj.flp">
-    <img alt="Instagram" src="https://img.shields.io/badge/INSTAGRAM-111111?style=for-the-badge&logo=instagram&logoColor=white&labelColor=ff6f9f" />
+    <img alt="Instagram" src="./assets/badge-instagram.svg" />
   </a>
 </p>
 
