@@ -1,16 +1,16 @@
 <p align="center">
-  <img src="./assets/profile-banner.svg" alt="Yashraj Deshmukh - AI systems, computer vision, and desktop automation" width="100%" />
+  <img src="./assets/profile-banner.svg" alt="Yashraj Deshmukh - full-stack, AI, design, and automation" width="100%" />
 </p>
 
 <p align="center">
   <a href="https://github.com/yashrajds?tab=repositories">
-    <img alt="Repositories" src="https://img.shields.io/badge/repositories-0E0E0E?style=for-the-badge&logo=github&logoColor=white&labelColor=151515" />
+    <img alt="Projects" src="https://img.shields.io/badge/PROJECTS-111111?style=for-the-badge&logo=github&logoColor=white&labelColor=ff6f9f" />
   </a>
   <a href="https://www.linkedin.com/in/yashrajdm">
-    <img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-0E0E0E?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=151515" />
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LINKEDIN-111111?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=ff6f9f" />
   </a>
-  <a href="https://github.com/yashrajds/OrionVA">
-    <img alt="OrionVA" src="https://img.shields.io/badge/current_focus-OrionVA-0E0E0E?style=for-the-badge&logo=python&logoColor=white&labelColor=151515" />
+  <a href="https://www.instagram.com/ysrj.flp">
+    <img alt="Instagram" src="https://img.shields.io/badge/INSTAGRAM-111111?style=for-the-badge&logo=instagram&logoColor=white&labelColor=ff6f9f" />
   </a>
 </p>
 
@@ -18,73 +18,83 @@
 
 ## Hey, I am Yashraj.
 
-I build software that feels alive: local AI assistants, computer-vision interfaces, automation tools, and polished desktop experiences.  
-Right now I am focused on **Orion**, a voice-first desktop AI assistant built around local models, perception, and PC control.
+I am a builder who likes turning rough ideas into working products.  
+My work sits around **software engineering, product design, AI automation, computer vision, and creative tools**.
 
 ```txt
-current mode   building local-first AI systems
-main stack     Python / TypeScript / React / Electron / Computer Vision
-interests      voice agents, desktop automation, local LLMs, CV interfaces
-design taste   cinematic, minimal, futuristic, functional
+role          full-stack developer / product builder
+focus         useful apps, AI workflows, clean interfaces, automation
+style         practical engineering with strong visual taste
+direction     build fast, design well, ship things people can actually use
 ```
 
-## Featured Work
+## What I Build
 
-| Project | What it is | Stack |
+| Area | What I care about |
+| --- | --- |
+| Full-stack products | Web apps, dashboards, tools, APIs, databases, auth flows, and complete product experiences. |
+| AI and automation | Prompt systems, AI workflows, local assistants, task automation, and LLM-powered utilities. |
+| Design and UI | Clean interfaces, product polish, prototypes, responsive layouts, and interaction details. |
+| Computer vision | Webcam interaction, gesture control, tracking experiments, and perception-based interfaces. |
+| Creative systems | Voice, music tools, video editing, scripting, and storytelling for digital projects. |
+
+## Skills
+
+<p align="center">
+  <img src="./assets/skills-board.svg" alt="Yashraj Deshmukh skills board" width="100%" />
+</p>
+
+## Selected Projects
+
+| Project | Type | Snapshot |
 | --- | --- | --- |
-| [OrionVA](https://github.com/yashrajds/OrionVA) | A futuristic desktop voice assistant with local AI, camera perception, and system control. | Python, React, Electron, GGUF, CV |
-| [Youmotion](https://github.com/yashrajds/Youmotion) | Control YouTube using webcam-based hand gestures. | Python, OpenCV, Gesture Recognition |
-| [AskMyNotes-HackSphere](https://github.com/yashrajds/AskMyNotes-HackSphere) | Academic copilot for grounded note-based Q&A. | TypeScript, AI, Web |
-| [Sudoku-Master](https://github.com/yashrajds/Sudoku-Master) | Modern Sudoku game with smart validation and puzzle generation. | Python, Tkinter |
-| [elec-calc](https://github.com/yashrajds/elec-calc) | Electricity bill calculator with slab rates, GST, fixed charges, and validations. | Python |
+| [OrionVA](https://github.com/yashrajds/OrionVA) | Desktop AI assistant | Local-first assistant with voice, automation, vision, and a custom desktop UI. |
+| [Youmotion](https://github.com/yashrajds/Youmotion) | Computer vision | Webcam hand gesture control for YouTube-style interaction. |
+| [AskMyNotes-HackSphere](https://github.com/yashrajds/AskMyNotes-HackSphere) | AI study tool | Note-based Q&A assistant for extracting answers from academic material. |
+| [Sudoku-Master](https://github.com/yashrajds/Sudoku-Master) | Game utility | Sudoku game with puzzle generation and validation. |
+| [elec-calc](https://github.com/yashrajds/elec-calc) | Utility app | Electricity bill calculator with slabs, fixed charges, GST, and validation. |
 
-## What I Like Building
-
-- **AI desktop systems** that can listen, reason, speak, see, and control the computer.
-- **Computer vision tools** for hand tracking, gesture control, object awareness, and camera-first interaction.
-- **Automation utilities** that remove repetitive work and make everyday workflows faster.
-- **Interfaces with taste**: clean typography, motion, depth, and UI that feels intentional.
-
-## Toolkit
+## Tech I Use
 
 <p>
-  <img alt="Python" src="https://img.shields.io/badge/Python-151515?style=flat-square&logo=python&logoColor=white" />
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-151515?style=flat-square&logo=typescript&logoColor=white" />
-  <img alt="React" src="https://img.shields.io/badge/React-151515?style=flat-square&logo=react&logoColor=white" />
-  <img alt="Electron" src="https://img.shields.io/badge/Electron-151515?style=flat-square&logo=electron&logoColor=white" />
-  <img alt="OpenCV" src="https://img.shields.io/badge/OpenCV-151515?style=flat-square&logo=opencv&logoColor=white" />
-  <img alt="Git" src="https://img.shields.io/badge/Git-151515?style=flat-square&logo=git&logoColor=white" />
-  <img alt="Windows" src="https://img.shields.io/badge/Windows-151515?style=flat-square&logo=windows&logoColor=white" />
+  <img alt="Python" src="https://img.shields.io/badge/Python-fffaf8?style=flat-square&logo=python&logoColor=111111" />
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-fffaf8?style=flat-square&logo=javascript&logoColor=111111" />
+  <img alt="React" src="https://img.shields.io/badge/React-fffaf8?style=flat-square&logo=react&logoColor=111111" />
+  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-fffaf8?style=flat-square&logo=nodedotjs&logoColor=111111" />
+  <img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-fffaf8?style=flat-square&logo=mongodb&logoColor=111111" />
+  <img alt="SQL" src="https://img.shields.io/badge/SQL-fffaf8?style=flat-square&logo=postgresql&logoColor=111111" />
+  <img alt="Figma" src="https://img.shields.io/badge/Figma-fffaf8?style=flat-square&logo=figma&logoColor=111111" />
+  <img alt="OpenCV" src="https://img.shields.io/badge/OpenCV-fffaf8?style=flat-square&logo=opencv&logoColor=111111" />
+  <img alt="Git" src="https://img.shields.io/badge/Git-fffaf8?style=flat-square&logo=git&logoColor=111111" />
 </p>
 
 ```txt
-AI / automation       local LLMs, voice assistants, tool execution, desktop control
-vision                OpenCV, MediaPipe-style tracking, gesture UX, webcam pipelines
-frontend              React, Electron, cinematic HUDs, responsive UI systems
-backend               Python services, async pipelines, logging, modular architecture
+engineering      Python, JavaScript, HTML, CSS, React, Node.js, MongoDB, SQL / NoSQL
+ai systems       prompt engineering, ChatGPT API, Gemini API, workflow design, LLM integration
+design           Figma, Canva, Photoshop, UI/UX principles, prototyping
+creative         voice acting, FL Studio, Premiere Pro, scriptwriting
 ```
 
 ## GitHub Signal
 
 <p align="center">
-  <img height="165" alt="Yashraj's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=yashrajds&show_icons=true&hide_border=true&bg_color=0E0E0E&title_color=F5F5F5&text_color=B8B8B8&icon_color=FFFFFF" />
-  <img height="165" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yashrajds&layout=compact&hide_border=true&bg_color=0E0E0E&title_color=F5F5F5&text_color=B8B8B8" />
+  <img height="165" alt="Yashraj's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=yashrajds&show_icons=true&hide_border=true&bg_color=fffaf8&title_color=111111&text_color=6f6763&icon_color=ff5b8d" />
+  <img height="165" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yashrajds&layout=compact&hide_border=true&bg_color=fffaf8&title_color=111111&text_color=6f6763" />
 </p>
 
-## Current Focus
+## Currently Exploring
 
 ```txt
-OrionVA
-|-- local GGUF inference
-|-- real-time voice pipeline
-|-- camera perception and gesture awareness
-|-- PC control and desktop automation
-`-- cinematic AI operating-system UI
+AI-powered workflows
+real-time computer vision
+clean product interfaces
+automation-first utilities
+creative tools for digital media
 ```
 
 ## Connect
 
-If you are into AI assistants, computer vision, automation, or futuristic interfaces, we probably have something to talk about.
+If you build things, design things, automate things, or just like ambitious product ideas, say hi.
 
 <p>
   <a href="https://www.linkedin.com/in/yashrajdm">LinkedIn</a>
