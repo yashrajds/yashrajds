@@ -75,11 +75,11 @@ backend               Python services, async pipelines, logging, modular archite
 
 ```txt
 OrionVA
-├─ local GGUF inference
-├─ real-time voice pipeline
-├─ camera perception and gesture awareness
-├─ PC control and desktop automation
-└─ cinematic AI operating-system UI
+|-- local GGUF inference
+|-- real-time voice pipeline
+|-- camera perception and gesture awareness
+|-- PC control and desktop automation
+`-- cinematic AI operating-system UI
 ```
 
 ## Connect
@@ -88,8 +88,8 @@ If you are into AI assistants, computer vision, automation, or futuristic interf
 
 <p>
   <a href="https://www.linkedin.com/in/yashrajdm">LinkedIn</a>
-  ·
+  /
   <a href="https://www.instagram.com/ysrj.flp">Instagram</a>
-  ·
+  /
   <a href="https://github.com/yashrajds?tab=repositories">Projects</a>
 </p>
