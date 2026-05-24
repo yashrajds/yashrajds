@@ -1,70 +1,127 @@
 <svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Yashraj Deshmukh profile banner</title>
-  <desc id="desc">A personal editorial profile banner with soft paper texture, pink initials, black print shapes, and minimal name typography.</desc>
+  <title id="title">Yashraj Deshmukh pink pixel profile banner</title>
+  <desc id="desc">A black, pink, and cream anime-pixel inspired GitHub profile banner customized for Yashraj Deshmukh.</desc>
   <defs>
-    <pattern id="paper" width="96" height="96" patternUnits="userSpaceOnUse">
-      <rect width="96" height="96" fill="#fff8f3"/>
-      <circle cx="16" cy="24" r="0.8" fill="#111111" opacity="0.055"/>
-      <circle cx="58" cy="14" r="0.7" fill="#111111" opacity="0.04"/>
-      <circle cx="82" cy="71" r="0.9" fill="#111111" opacity="0.04"/>
-      <circle cx="30" cy="82" r="0.7" fill="#f36b98" opacity="0.12"/>
-      <path d="M0 49H96M41 0V96" stroke="#111111" stroke-opacity="0.012"/>
+    <pattern id="pixelGrid" width="22" height="22" patternUnits="userSpaceOnUse">
+      <rect width="22" height="22" fill="transparent"/>
+      <path d="M22 0H0V22" stroke="#f5d8e2" stroke-opacity="0.16" stroke-width="1"/>
     </pattern>
-    <filter id="rough" x="-12%" y="-12%" width="124%" height="124%" color-interpolation-filters="sRGB">
-      <feTurbulence type="fractalNoise" baseFrequency="0.72" numOctaves="2" seed="27" result="noise"/>
-      <feDisplacementMap in="SourceGraphic" in2="noise" scale="1.1"/>
+    <pattern id="halftone" width="8" height="8" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1" fill="#111111" opacity="0.22"/>
+    </pattern>
+    <filter id="softPink" x="-12%" y="-12%" width="124%" height="124%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#ff9cc6" flood-opacity="0.45"/>
     </filter>
-    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="150%" color-interpolation-filters="sRGB">
-      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#111111" flood-opacity="0.12"/>
+    <filter id="roughEdge" x="-8%" y="-8%" width="116%" height="116%" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency="0.64" numOctaves="2" seed="31" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="0.9"/>
     </filter>
   </defs>
 
-  <rect width="1200" height="360" fill="url(#paper)"/>
-  <rect width="1200" height="360" fill="#fff8f3" opacity="0.5"/>
+  <rect width="1200" height="360" fill="#030303"/>
+  <rect x="92" y="0" width="584" height="360" fill="url(#pixelGrid)" opacity="0.86"/>
+  <rect x="786" y="0" width="414" height="360" fill="#f2e8e7"/>
+  <rect x="786" y="0" width="414" height="360" fill="url(#halftone)" opacity="0.36"/>
 
-  <g opacity="0.76" filter="url(#rough)">
-    <text x="42" y="236" fill="#f36b98" fill-opacity="0.38" font-family="Impact, Arial Black, Arial, sans-serif" font-size="178" font-weight="900" letter-spacing="-12">YD</text>
-    <rect x="861" y="0" width="54" height="360" fill="#111111" fill-opacity="0.78"/>
-    <rect x="820" y="168" width="236" height="43" fill="#111111" fill-opacity="0.83"/>
-    <rect x="861" y="227" width="162" height="39" fill="#111111" fill-opacity="0.83"/>
-    <rect x="957" y="-14" width="272" height="38" transform="rotate(90 957 -14)" fill="#111111" fill-opacity="0.72"/>
-  </g>
-
-  <g transform="translate(292 -28) rotate(72)" opacity="0.35" filter="url(#softShadow)">
-    <rect width="160" height="96" fill="#fffdf9" stroke="#111111" stroke-opacity="0.14"/>
-    <g font-family="Georgia, serif" font-size="8" fill="#111111" opacity="0.48">
-      <text x="14" y="22">ideas sketches prototypes build notes</text>
-      <text x="14" y="38">interfaces systems automation craft</text>
-      <text x="14" y="54">learn fast make useful things</text>
-      <text x="14" y="70">code design ship repeat</text>
+  <g opacity="0.85">
+    <rect x="677" y="0" width="9" height="360" fill="#f5d8e2"/>
+    <rect x="692" y="0" width="8" height="360" fill="#030303"/>
+    <g transform="translate(710 0)">
+      <rect x="0" y="0" width="10" height="10" fill="#f2e8e7"/>
+      <rect x="0" y="16" width="10" height="10" fill="#f2e8e7"/>
+      <rect x="0" y="32" width="10" height="10" fill="#f2e8e7"/>
+      <rect x="0" y="48" width="10" height="10" fill="#f2e8e7"/>
+      <rect x="0" y="64" width="10" height="10" fill="#f2e8e7"/>
+      <rect x="0" y="80" width="10" height="10" fill="#f2e8e7"/>
+      <rect x="0" y="96" width="10" height="10" fill="#f2e8e7"/>
+      <rect x="0" y="112" width="10" height="10" fill="#f2e8e7"/>
+      <rect x="0" y="128" width="10" height="10" fill="#f2e8e7"/>
+      <rect x="0" y="144" width="10" height="10" fill="#f2e8e7"/>
+      <rect x="0" y="160" width="10" height="10" fill="#f2e8e7"/>
+      <rect x="0" y="176" width="10" height="10" fill="#f2e8e7"/>
+      <rect x="0" y="192" width="10" height="10" fill="#f2e8e7"/>
+      <rect x="0" y="208" width="10" height="10" fill="#f2e8e7"/>
+      <rect x="0" y="224" width="10" height="10" fill="#f2e8e7"/>
+      <rect x="0" y="240" width="10" height="10" fill="#f2e8e7"/>
+      <rect x="0" y="256" width="10" height="10" fill="#f2e8e7"/>
+      <rect x="0" y="272" width="10" height="10" fill="#f2e8e7"/>
+      <rect x="0" y="288" width="10" height="10" fill="#f2e8e7"/>
+      <rect x="0" y="304" width="10" height="10" fill="#f2e8e7"/>
+      <rect x="0" y="320" width="10" height="10" fill="#f2e8e7"/>
+      <rect x="0" y="336" width="10" height="10" fill="#f2e8e7"/>
     </g>
   </g>
 
-  <g transform="translate(575 26) rotate(-12)" opacity="0.7" filter="url(#softShadow)">
-    <rect x="0" y="0" width="156" height="68" fill="#fffdf9"/>
-    <path d="M20 43C48 10 78 9 107 42" stroke="#111111" stroke-width="3" stroke-linecap="round"/>
-    <path d="M43 30L58 20M84 20L99 30" stroke="#111111" stroke-width="3" stroke-linecap="round"/>
-    <path d="M29 52C56 63 84 63 113 52" stroke="#111111" stroke-width="3" stroke-linecap="round"/>
+  <g opacity="0.95">
+    <rect x="616" y="0" width="20" height="20" fill="#e68db5"/>
+    <rect x="638" y="0" width="20" height="20" fill="#e8bed0"/>
+    <rect x="572" y="24" width="20" height="20" fill="#e68db5"/>
+    <rect x="594" y="24" width="20" height="20" fill="#f2e8e7"/>
+    <rect x="616" y="24" width="20" height="20" fill="#e8bed0"/>
+    <rect x="550" y="48" width="20" height="20" fill="#e68db5"/>
+    <rect x="572" y="48" width="20" height="20" fill="#f2e8e7"/>
+    <rect x="594" y="48" width="20" height="20" fill="#f2e8e7"/>
+    <rect x="528" y="72" width="20" height="20" fill="#e68db5"/>
+    <rect x="550" y="72" width="20" height="20" fill="#f2e8e7"/>
+    <rect x="572" y="72" width="20" height="20" fill="#f2e8e7"/>
+    <rect x="506" y="96" width="20" height="20" fill="#e68db5"/>
+    <rect x="528" y="96" width="20" height="20" fill="#f2e8e7"/>
+    <rect x="550" y="96" width="20" height="20" fill="#f2e8e7"/>
+    <rect x="484" y="120" width="20" height="20" fill="#e68db5"/>
+    <rect x="506" y="120" width="20" height="20" fill="#f2e8e7"/>
+    <rect x="528" y="120" width="20" height="20" fill="#f2e8e7"/>
+    <rect x="462" y="144" width="20" height="20" fill="#e68db5"/>
+    <rect x="484" y="144" width="20" height="20" fill="#f2e8e7"/>
+    <rect x="506" y="144" width="20" height="20" fill="#e68db5"/>
   </g>
 
-  <g transform="translate(36 8)" stroke="#111111" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.72">
-    <path d="M12 10C28 45 62 44 76 12"/>
-    <path d="M44 0C32 28 33 55 45 78"/>
-    <path d="M0 40C28 29 56 30 88 42"/>
-    <path d="M18 73C43 53 63 54 85 73"/>
+  <g transform="translate(70 -36)" filter="url(#softPink)">
+    <path d="M101 62C36 83 24 148 58 196C91 243 162 227 172 171C181 119 151 73 101 62Z" fill="#f2e8e7"/>
+    <path d="M108 76C56 92 48 146 74 181C97 211 140 201 149 163C158 122 146 89 108 76Z" fill="#f7bfd3"/>
+    <path d="M84 53C35 70 9 121 23 175C29 197 43 214 61 224" stroke="#f7bfd3" stroke-width="12" stroke-linecap="round"/>
+    <path d="M120 48C198 66 218 135 179 208C156 253 111 281 72 308" stroke="#f7bfd3" stroke-width="13" stroke-linecap="round"/>
+    <path d="M68 112C102 55 166 43 222 84C259 111 277 154 270 202" stroke="#f2e8e7" stroke-width="7" stroke-linecap="round"/>
+    <path d="M107 89L164 38L219 89L188 146L132 146Z" fill="#030303"/>
+    <path d="M132 118L165 86L198 118" stroke="#f2e8e7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 
-  <g transform="translate(470 225)">
-    <path d="M0 0H310" stroke="#111111" stroke-opacity="0.24" stroke-width="2"/>
-    <text x="0" y="34" fill="#111111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="900" letter-spacing="7">YASHRAJ DESHMUKH</text>
-    <text x="2" y="64" fill="#111111" opacity="0.62" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="4">BUILD / DESIGN / CREATE</text>
+  <g transform="translate(210 -8)" filter="url(#roughEdge)">
+    <path d="M96 5H286L341 71L308 205L177 259L43 198L0 67Z" fill="#f2e8e7"/>
+    <path d="M80 7H288L318 52L298 98C240 72 174 84 109 116L37 85Z" fill="#eadbd9"/>
+    <path d="M84 144C129 91 206 82 269 127L222 220L126 214Z" fill="#030303"/>
+    <path d="M150 116C181 97 221 101 251 128" stroke="#f7bfd3" stroke-width="12" stroke-linecap="round"/>
+    <path d="M151 160C180 188 217 191 251 165" stroke="#f2e8e7" stroke-width="4" stroke-linecap="round"/>
+    <path d="M105 223L151 282L218 262L178 216Z" fill="#f7bfd3"/>
+    <path d="M112 232L150 272M136 222L173 269M163 216L201 255" stroke="#030303" stroke-width="3"/>
+    <path d="M49 127L24 111L36 156Z" fill="#030303"/>
+    <path d="M296 104L334 86L316 146Z" fill="#030303"/>
+    <path d="M41 56C78 0 140 -2 177 40" stroke="#f7bfd3" stroke-width="9" stroke-linecap="round"/>
+    <path d="M242 34C299 13 351 55 354 121" stroke="#f7bfd3" stroke-width="9" stroke-linecap="round"/>
   </g>
 
-  <g transform="translate(420 188) rotate(-9)">
-    <polygon points="0,19 21,0 49,7 55,38 29,54 4,43" fill="#f36b98" fill-opacity="0.72"/>
-    <path d="M17 30L24 18L33 33L43 22" stroke="#111111" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(760 -12)">
+    <path d="M92 0H446V360H32C12 271 27 190 89 121C121 85 109 45 92 0Z" fill="#f2e8e7"/>
+    <path d="M44 16C100 110 111 201 84 318" stroke="#030303" stroke-width="3"/>
+    <path d="M97 0C151 95 159 201 127 351" stroke="#030303" stroke-width="3"/>
+    <path d="M149 0C213 111 205 229 171 360" stroke="#030303" stroke-width="3"/>
+    <path d="M218 0C272 92 262 184 225 286" stroke="#030303" stroke-width="3"/>
+    <path d="M282 0C339 82 327 167 287 246" stroke="#030303" stroke-width="3"/>
+    <path d="M60 200C119 142 204 143 260 205C205 242 119 243 60 200Z" fill="#030303"/>
+    <circle cx="156" cy="198" r="45" fill="#030303"/>
+    <circle cx="171" cy="181" r="11" fill="#f2e8e7"/>
+    <circle cx="139" cy="213" r="6" fill="#f2e8e7"/>
+    <path d="M77 205C126 241 194 240 250 205" stroke="#f2e8e7" stroke-width="5" stroke-linecap="round"/>
+    <path d="M248 85L309 17L368 76L301 139Z" fill="#f7bfd3"/>
+    <path d="M300 70L329 43M304 42L329 73" stroke="#f2e8e7" stroke-width="12" stroke-linecap="round"/>
+    <path d="M295 269L323 242M298 242L324 269" stroke="#f7bfd3" stroke-width="8" stroke-linecap="round"/>
+    <path d="M44 258L75 230M47 230L76 260" stroke="#f7bfd3" stroke-width="8" stroke-linecap="round"/>
+    <rect x="193" y="266" width="42" height="42" transform="rotate(-12 193 266)" fill="#f7bfd3"/>
+    <rect x="210" y="277" width="12" height="20" fill="#f2e8e7"/>
   </g>
 
-  <path d="M0 284C142 241 266 249 392 282C580 330 749 294 905 242C1018 205 1110 207 1200 229" stroke="#111111" stroke-opacity="0.18" stroke-width="1.4"/>
-  <path d="M92 144H248M92 158H202M930 286H1140M954 304H1088" stroke="#111111" stroke-opacity="0.18" stroke-width="1.4"/>
+  <g opacity="0.94">
+    <path d="M58 320H510" stroke="#f7bfd3" stroke-width="3" stroke-linecap="round"/>
+    <text x="62" y="305" fill="#f2e8e7" font-family="Consolas, 'Courier New', monospace" font-size="18" font-weight="900" letter-spacing="4">YASHRAJ DESHMUKH</text>
+    <text x="63" y="333" fill="#f7bfd3" font-family="Consolas, 'Courier New', monospace" font-size="13" font-weight="900" letter-spacing="3">CODE / DESIGN / AI / CREATIVE SYSTEMS</text>
+  </g>
 </svg>
