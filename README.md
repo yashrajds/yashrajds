@@ -40,9 +40,16 @@ direction     build fast, design well, ship things people can actually use
 
 ## Skills
 
-<p align="center">
-  <img src="./assets/skills-board.svg" alt="Yashraj Deshmukh skills board" width="100%" />
-</p>
+| Core Engineering | Product and Design | AI and Automation | Creative Edge |
+| --- | --- | --- | --- |
+| Python | Figma | Prompt Engineering | Voice Acting |
+| JavaScript | Canva | ChatGPT API | FL Studio |
+| HTML5 / CSS3 | Adobe Photoshop | Gemini API | Adobe Premiere Pro |
+| React | UI/UX Principles | AI Workflow Design | Scriptwriting |
+| Node.js | Prototyping | LLM Integration | Media production |
+| MongoDB | Product polish | Automation logic | Storytelling |
+| SQL / NoSQL | Visual systems | Assistant workflows | Audio direction |
+| DSA | Interaction design | Tool orchestration | Creative scripting |
 
 ## Selected Projects
 
