@@ -1,0 +1,146 @@
+<svg width="1200" height="780" viewBox="0 0 1200 780" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Yashraj Deshmukh skills board</title>
+  <desc id="desc">An editorial skills board showing full-stack engineering, product design, AI automation, and creative skills.</desc>
+  <defs>
+    <pattern id="grain" width="64" height="64" patternUnits="userSpaceOnUse">
+      <rect width="64" height="64" fill="#fffaf8"/>
+      <circle cx="11" cy="21" r="0.8" fill="#111" opacity="0.055"/>
+      <circle cx="37" cy="9" r="0.7" fill="#111" opacity="0.045"/>
+      <circle cx="54" cy="51" r="0.9" fill="#111" opacity="0.04"/>
+    </pattern>
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="150%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="20" stdDeviation="22" flood-color="#111111" flood-opacity="0.08"/>
+    </filter>
+    <style>
+      .label { font: 800 13px Inter, Segoe UI, Arial, sans-serif; fill: #111; }
+      .muted { font: 500 12px Inter, Segoe UI, Arial, sans-serif; fill: #7d7673; }
+      .skill { font: 600 12px Inter, Segoe UI, Arial, sans-serif; fill: #2b2928; }
+      .pct { font: 700 10px Inter, Segoe UI, Arial, sans-serif; fill: #9a918d; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="780" fill="url(#grain)"/>
+  <path d="M16 24H42" stroke="#ff4f20" stroke-width="2"/>
+  <text x="54" y="29" fill="#ff4f20" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="900" letter-spacing="3">SKILLS</text>
+  <text x="16" y="88" fill="#111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="40" font-weight="900" letter-spacing="-1.2">
+    The Stack That Ships <tspan fill="#ff5b2f">Products.</tspan>
+  </text>
+  <text x="18" y="122" fill="#77706c" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="500">
+    From backend foundations to pixel-perfect UI, with AI workflows and creative production layered on top.
+  </text>
+
+  <g transform="translate(16 176)" filter="url(#cardShadow)">
+    <rect width="676" height="354" rx="18" fill="#fffaf8" stroke="#ff9a78" stroke-opacity="0.6"/>
+    <circle cx="31" cy="38" r="4" fill="#ff6537"/>
+    <text x="48" y="42" class="label">Core Engineering</text>
+    <text x="44" y="64" class="muted">Full-stack development foundations</text>
+
+    <g transform="translate(28 86)">
+      <g>
+        <rect width="202" height="42" rx="10" fill="#f0efee" stroke="#d8d2cf"/>
+        <text x="12" y="22" class="skill">Python</text><text x="176" y="22" class="pct">98%</text>
+        <rect x="12" y="31" width="176" height="2" fill="#ddd8d5"/><rect x="12" y="31" width="170" height="2" fill="#ff4f20"/>
+      </g>
+      <g transform="translate(210 0)">
+        <rect width="202" height="42" rx="10" fill="#f0efee" stroke="#d8d2cf"/>
+        <text x="12" y="22" class="skill">JavaScript</text><text x="176" y="22" class="pct">92%</text>
+        <rect x="12" y="31" width="176" height="2" fill="#ddd8d5"/><rect x="12" y="31" width="162" height="2" fill="#ff4f20"/>
+      </g>
+      <g transform="translate(420 0)">
+        <rect width="202" height="42" rx="10" fill="#f0efee" stroke="#d8d2cf"/>
+        <text x="12" y="22" class="skill">HTML5</text><text x="176" y="22" class="pct">95%</text>
+        <rect x="12" y="31" width="176" height="2" fill="#ddd8d5"/><rect x="12" y="31" width="167" height="2" fill="#ff4f20"/>
+      </g>
+      <g transform="translate(0 50)">
+        <rect width="202" height="42" rx="10" fill="#fff0e9" stroke="#ff9a78"/>
+        <text x="12" y="22" class="skill">CSS3</text><text x="176" y="22" class="pct">90%</text>
+        <rect x="12" y="31" width="176" height="2" fill="#f0cfc2"/><rect x="12" y="31" width="158" height="2" fill="#ff4f20"/>
+      </g>
+      <g transform="translate(210 50)">
+        <rect width="202" height="42" rx="10" fill="#f0efee" stroke="#d8d2cf"/>
+        <text x="12" y="22" class="skill">Tailwind CSS</text><text x="176" y="22" class="pct">88%</text>
+        <rect x="12" y="31" width="176" height="2" fill="#ddd8d5"/><rect x="12" y="31" width="155" height="2" fill="#ff4f20"/>
+      </g>
+      <g transform="translate(420 50)">
+        <rect width="202" height="42" rx="10" fill="#f0efee" stroke="#d8d2cf"/>
+        <text x="12" y="22" class="skill">React</text><text x="176" y="22" class="pct">85%</text>
+        <rect x="12" y="31" width="176" height="2" fill="#ddd8d5"/><rect x="12" y="31" width="150" height="2" fill="#ff4f20"/>
+      </g>
+      <g transform="translate(0 100)">
+        <rect width="202" height="42" rx="10" fill="#f0efee" stroke="#d8d2cf"/>
+        <text x="12" y="22" class="skill">Node.js</text><text x="176" y="22" class="pct">80%</text>
+        <rect x="12" y="31" width="176" height="2" fill="#ddd8d5"/><rect x="12" y="31" width="141" height="2" fill="#ff4f20"/>
+      </g>
+      <g transform="translate(210 100)">
+        <rect width="202" height="42" rx="10" fill="#f0efee" stroke="#d8d2cf"/>
+        <text x="12" y="22" class="skill">MongoDB</text><text x="176" y="22" class="pct">78%</text>
+        <rect x="12" y="31" width="176" height="2" fill="#ddd8d5"/><rect x="12" y="31" width="137" height="2" fill="#ff4f20"/>
+      </g>
+      <g transform="translate(420 100)">
+        <rect width="202" height="42" rx="10" fill="#f0efee" stroke="#d8d2cf"/>
+        <text x="12" y="22" class="skill">SQL / NoSQL</text><text x="176" y="22" class="pct">75%</text>
+        <rect x="12" y="31" width="176" height="2" fill="#ddd8d5"/><rect x="12" y="31" width="132" height="2" fill="#ff4f20"/>
+      </g>
+      <g transform="translate(0 150)">
+        <rect width="202" height="42" rx="10" fill="#f0efee" stroke="#d8d2cf"/>
+        <text x="12" y="22" class="skill">DSA</text><text x="176" y="22" class="pct">72%</text>
+        <rect x="12" y="31" width="176" height="2" fill="#ddd8d5"/><rect x="12" y="31" width="127" height="2" fill="#ff4f20"/>
+      </g>
+      <g transform="translate(210 150)">
+        <rect width="202" height="42" rx="10" fill="#f0efee" stroke="#d8d2cf"/>
+        <text x="12" y="22" class="skill">Solidity</text><text x="176" y="22" class="pct">60%</text>
+        <rect x="12" y="31" width="176" height="2" fill="#ddd8d5"/><rect x="12" y="31" width="106" height="2" fill="#ff4f20"/>
+      </g>
+      <g transform="translate(420 150)">
+        <rect width="202" height="42" rx="10" fill="#f0efee" stroke="#d8d2cf"/>
+        <text x="12" y="22" class="skill">Android Basics</text><text x="176" y="22" class="pct">55%</text>
+        <rect x="12" y="31" width="176" height="2" fill="#ddd8d5"/><rect x="12" y="31" width="97" height="2" fill="#ff4f20"/>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(714 176)" filter="url(#cardShadow)">
+    <rect width="328" height="354" rx="18" fill="#fffaf8" stroke="#c5a6ff" stroke-opacity="0.75"/>
+    <circle cx="31" cy="38" r="4" fill="#a88bff"/>
+    <text x="48" y="42" class="label">Product and Design</text>
+    <text x="44" y="64" class="muted">User experience and visual craft</text>
+    <g transform="translate(28 86)">
+      <g><rect width="272" height="42" rx="10" fill="#f0efee" stroke="#d8d2cf"/><text x="12" y="22" class="skill">Figma</text><text x="246" y="22" class="pct">88%</text><rect x="12" y="31" width="232" height="2" fill="#ddd8d5"/><rect x="12" y="31" width="204" height="2" fill="#a88bff"/></g>
+      <g transform="translate(0 50)"><rect width="272" height="42" rx="10" fill="#f0efee" stroke="#d8d2cf"/><text x="12" y="22" class="skill">Canva</text><text x="246" y="22" class="pct">85%</text><rect x="12" y="31" width="232" height="2" fill="#ddd8d5"/><rect x="12" y="31" width="197" height="2" fill="#a88bff"/></g>
+      <g transform="translate(0 100)"><rect width="272" height="42" rx="10" fill="#f0efee" stroke="#d8d2cf"/><text x="12" y="22" class="skill">Adobe Photoshop</text><text x="246" y="22" class="pct">75%</text><rect x="12" y="31" width="232" height="2" fill="#ddd8d5"/><rect x="12" y="31" width="174" height="2" fill="#a88bff"/></g>
+      <g transform="translate(0 150)"><rect width="272" height="42" rx="10" fill="#f0efee" stroke="#d8d2cf"/><text x="12" y="22" class="skill">UI/UX Principles</text><text x="246" y="22" class="pct">82%</text><rect x="12" y="31" width="232" height="2" fill="#ddd8d5"/><rect x="12" y="31" width="190" height="2" fill="#a88bff"/></g>
+      <g transform="translate(0 200)"><rect width="272" height="42" rx="10" fill="#f0efee" stroke="#d8d2cf"/><text x="12" y="22" class="skill">Prototyping</text><text x="246" y="22" class="pct">78%</text><rect x="12" y="31" width="232" height="2" fill="#ddd8d5"/><rect x="12" y="31" width="181" height="2" fill="#a88bff"/></g>
+    </g>
+  </g>
+
+  <g transform="translate(16 550)" filter="url(#cardShadow)">
+    <rect width="328" height="210" rx="18" fill="#fffaf8" stroke="#8de5bf" stroke-opacity="0.85"/>
+    <circle cx="31" cy="38" r="4" fill="#59d99a"/>
+    <text x="48" y="42" class="label">AI and Automation</text>
+    <text x="44" y="64" class="muted">Intelligent workflow integration</text>
+    <g transform="translate(28 86)">
+      <g><rect width="272" height="34" rx="10" fill="#f0efee" stroke="#d8d2cf"/><text x="12" y="21" class="skill">Prompt Engineering</text><text x="246" y="21" class="pct">98%</text><rect x="12" y="27" width="232" height="2" fill="#ddd8d5"/><rect x="12" y="27" width="227" height="2" fill="#59d99a"/></g>
+      <g transform="translate(0 42)"><rect width="272" height="34" rx="10" fill="#f0efee" stroke="#d8d2cf"/><text x="12" y="21" class="skill">ChatGPT API</text><text x="246" y="21" class="pct">85%</text><rect x="12" y="27" width="232" height="2" fill="#ddd8d5"/><rect x="12" y="27" width="197" height="2" fill="#59d99a"/></g>
+      <g transform="translate(0 84)"><rect width="272" height="34" rx="10" fill="#f0efee" stroke="#d8d2cf"/><text x="12" y="21" class="skill">AI Workflow Design</text><text x="246" y="21" class="pct">82%</text><rect x="12" y="27" width="232" height="2" fill="#ddd8d5"/><rect x="12" y="27" width="190" height="2" fill="#59d99a"/></g>
+    </g>
+  </g>
+
+  <g transform="translate(364 550)" filter="url(#cardShadow)">
+    <rect width="328" height="210" rx="18" fill="#fffaf8" stroke="#7ec8ff" stroke-opacity="0.85"/>
+    <circle cx="31" cy="38" r="4" fill="#69bfff"/>
+    <text x="48" y="42" class="label">Creative Edge</text>
+    <text x="44" y="64" class="muted">Media production and storytelling</text>
+    <g transform="translate(28 86)">
+      <g><rect width="272" height="34" rx="10" fill="#f0efee" stroke="#d8d2cf"/><text x="12" y="21" class="skill">Voice Acting</text><text x="246" y="21" class="pct">90%</text><rect x="12" y="27" width="232" height="2" fill="#ddd8d5"/><rect x="12" y="27" width="209" height="2" fill="#69bfff"/></g>
+      <g transform="translate(0 42)"><rect width="272" height="34" rx="10" fill="#f0efee" stroke="#d8d2cf"/><text x="12" y="21" class="skill">FL Studio</text><text x="246" y="21" class="pct">78%</text><rect x="12" y="27" width="232" height="2" fill="#ddd8d5"/><rect x="12" y="27" width="181" height="2" fill="#69bfff"/></g>
+      <g transform="translate(0 84)"><rect width="272" height="34" rx="10" fill="#f0efee" stroke="#d8d2cf"/><text x="12" y="21" class="skill">Scriptwriting</text><text x="246" y="21" class="pct">85%</text><rect x="12" y="27" width="232" height="2" fill="#ddd8d5"/><rect x="12" y="27" width="197" height="2" fill="#69bfff"/></g>
+    </g>
+  </g>
+
+  <g transform="translate(714 574)">
+    <rect width="328" height="162" rx="18" fill="#111"/>
+    <text x="28" y="45" fill="#fffaf8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="900">Builder profile</text>
+    <text x="28" y="78" fill="#ffc7d8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Code. Design. Automate. Ship.</text>
+    <text x="28" y="112" fill="#fffaf8" opacity="0.78" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="500">A practical stack for turning rough ideas into working digital products.</text>
+  </g>
+</svg>
