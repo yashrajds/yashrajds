@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-banner.svg" alt="Yashraj Deshmukh - full-stack, AI, design, and automation" width="100%" />
+  <img src="./assets/profile-banner.gif" alt="Yashraj Deshmukh profile banner" width="100%" />
 </p>
 
 <p align="center">
