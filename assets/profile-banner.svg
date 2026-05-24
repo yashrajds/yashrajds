@@ -1,86 +1,88 @@
 <svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Yashraj Deshmukh editorial GitHub profile banner</title>
-  <desc id="desc">A bright editorial collage style banner with black print marks, soft pink accents, and profile title text.</desc>
+  <title id="title">Yashraj Deshmukh editorial collage banner</title>
+  <desc id="desc">A personal editorial collage banner with off-white paper texture, black print blocks, pink typography, and hand-drawn doodles.</desc>
   <defs>
-    <pattern id="paperGrain" width="72" height="72" patternUnits="userSpaceOnUse">
-      <rect width="72" height="72" fill="#fff8f5"/>
-      <circle cx="8" cy="13" r="0.8" fill="#111" opacity="0.08"/>
-      <circle cx="35" cy="7" r="0.7" fill="#111" opacity="0.06"/>
-      <circle cx="59" cy="38" r="0.9" fill="#111" opacity="0.055"/>
-      <circle cx="21" cy="55" r="0.7" fill="#111" opacity="0.05"/>
-      <path d="M0 30H72M19 0V72" stroke="#111" stroke-opacity="0.018"/>
+    <pattern id="paper" width="80" height="80" patternUnits="userSpaceOnUse">
+      <rect width="80" height="80" fill="#fff7f1"/>
+      <circle cx="12" cy="18" r="0.9" fill="#111111" opacity="0.08"/>
+      <circle cx="48" cy="9" r="0.7" fill="#111111" opacity="0.055"/>
+      <circle cx="67" cy="56" r="0.9" fill="#111111" opacity="0.05"/>
+      <circle cx="23" cy="69" r="0.6" fill="#ff5b91" opacity="0.16"/>
+      <path d="M0 42H80M33 0V80" stroke="#111111" stroke-opacity="0.015"/>
     </pattern>
-    <filter id="softInk" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation="0.35"/>
+    <filter id="blurInk" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="0.45"/>
     </filter>
-    <filter id="paperShadow" x="-20%" y="-20%" width="140%" height="160%" color-interpolation-filters="sRGB">
-      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#111111" flood-opacity="0.14"/>
+    <filter id="roughPrint" x="-12%" y="-12%" width="124%" height="124%" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="12" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="1.8"/>
     </filter>
-    <linearGradient id="pinkWash" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#ff5b8d" stop-opacity="0.48"/>
-      <stop offset="1" stop-color="#ff9ab8" stop-opacity="0.16"/>
-    </linearGradient>
+    <filter id="paperLift" x="-20%" y="-20%" width="140%" height="150%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#111111" flood-opacity="0.13"/>
+    </filter>
   </defs>
 
-  <rect width="1200" height="360" fill="url(#paperGrain)"/>
-  <rect x="-44" y="41" width="340" height="92" transform="rotate(-4 -44 41)" fill="#ff6f9f" opacity="0.4"/>
-  <rect x="945" y="-24" width="166" height="410" transform="rotate(90 945 -24)" fill="#111" opacity="0.88"/>
-  <rect x="964" y="60" width="52" height="236" transform="rotate(90 964 60)" fill="#111" opacity="0.88"/>
-  <path d="M-22 300C142 238 285 263 443 296C625 335 820 310 1009 244C1092 216 1158 213 1231 232" stroke="#111" stroke-opacity="0.1" stroke-width="42"/>
+  <rect width="1200" height="360" fill="url(#paper)"/>
+  <rect x="-10" y="-18" width="1228" height="396" fill="#fff7f1" opacity="0.56"/>
 
-  <g transform="translate(88 54) rotate(-5)" filter="url(#paperShadow)">
-    <rect width="214" height="86" fill="#fffaf8" stroke="#111" stroke-opacity="0.22"/>
-    <path d="M22 22H186M22 40H162M22 58H190" stroke="#111" stroke-opacity="0.34" stroke-width="3"/>
-    <path d="M22 74H126" stroke="#ff4f83" stroke-opacity="0.7" stroke-width="5"/>
+  <g filter="url(#roughPrint)" opacity="0.95">
+    <text x="-58" y="189" fill="#f06f9d" fill-opacity="0.48" font-family="Impact, Arial Black, Arial, sans-serif" font-size="184" font-weight="900" letter-spacing="-12">YOU</text>
+    <text x="840" y="116" fill="#111111" fill-opacity="0.9" font-family="Impact, Arial Black, Arial, sans-serif" font-size="178" font-weight="900" letter-spacing="-8" transform="rotate(90 840 116)">PLAY</text>
+    <rect x="792" y="178" width="262" height="45" fill="#111111" fill-opacity="0.86"/>
+    <rect x="930" y="-22" width="330" height="48" transform="rotate(90 930 -22)" fill="#111111" fill-opacity="0.83"/>
   </g>
 
-  <g transform="translate(286 18) rotate(10)" opacity="0.84">
-    <path d="M20 0C58 21 95 35 142 36C102 55 69 71 32 102C36 63 31 30 20 0Z" fill="#111"/>
-    <path d="M57 40L105 42M62 55L91 58" stroke="#fff8f5" stroke-width="5" stroke-linecap="round"/>
+  <g transform="translate(348 -34) rotate(71)" opacity="0.72" filter="url(#blurInk)">
+    <rect x="0" y="0" width="178" height="96" fill="#fffaf6" stroke="#111111" stroke-opacity="0.18"/>
+    <g font-family="Georgia, serif" font-size="8" fill="#111111" opacity="0.5">
+      <text x="14" y="20">design notes build logs product thinking</text>
+      <text x="14" y="34">rough ideas clean systems small wins</text>
+      <text x="14" y="48">software interfaces automation experiments</text>
+      <text x="14" y="62">ship the thing refine the thing repeat</text>
+      <text x="14" y="76">good taste and useful code belong together</text>
+    </g>
   </g>
 
-  <g transform="translate(982 28) rotate(7)" filter="url(#softInk)">
-    <circle cx="46" cy="44" r="42" stroke="#111" stroke-width="5"/>
-    <circle cx="31" cy="36" r="5" fill="#111"/>
-    <circle cx="61" cy="36" r="5" fill="#111"/>
-    <path d="M31 60C42 71 54 71 65 60" stroke="#111" stroke-width="5" stroke-linecap="round"/>
-    <path d="M7 25L-22 7M83 25L109 9M7 65L-24 79M84 65L114 80" stroke="#111" stroke-width="4" stroke-linecap="round"/>
+  <g transform="translate(548 24) rotate(-13)" opacity="0.68" filter="url(#paperLift)">
+    <rect x="0" y="0" width="176" height="78" fill="#fffaf6"/>
+    <path d="M21 48C52 8 83 9 116 47" stroke="#111111" stroke-width="3" stroke-linecap="round"/>
+    <path d="M45 34L62 22M89 22L107 34" stroke="#111111" stroke-width="3" stroke-linecap="round"/>
+    <path d="M17 23L-12 7M138 24L168 8" stroke="#111111" stroke-width="3" stroke-linecap="round"/>
+    <path d="M31 58C60 72 91 72 123 58" stroke="#111111" stroke-width="3" stroke-linecap="round"/>
   </g>
 
-  <g transform="translate(74 116)">
-    <text x="0" y="0" fill="#111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800" letter-spacing="7">
-      FULL-STACK / AI / DESIGN / AUTOMATION
-    </text>
-    <text x="0" y="74" fill="#111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="64" font-weight="900" letter-spacing="-3">
-      Yashraj Deshmukh
-    </text>
-    <text x="3" y="119" fill="#111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="600" letter-spacing="0.4">
-      I build useful products from idea to interface to working system.
-    </text>
+  <g transform="translate(26 0)" stroke="#111111" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.82">
+    <path d="M12 10C29 45 62 44 75 13"/>
+    <path d="M43 0C32 27 33 54 45 76"/>
+    <path d="M0 39C27 29 55 30 88 41"/>
+    <path d="M18 72C42 53 62 54 84 73"/>
   </g>
 
-  <g transform="translate(725 104)">
-    <path d="M0 70C56 18 127 8 191 36C236 56 264 89 279 132" stroke="#111" stroke-width="3" stroke-linecap="round"/>
-    <circle cx="143" cy="97" r="54" stroke="#111" stroke-width="3"/>
-    <circle cx="143" cy="97" r="28" stroke="#111" stroke-width="3"/>
-    <circle cx="143" cy="97" r="7" fill="#111"/>
-    <path d="M98 133C121 159 166 160 191 133" stroke="#ff4f83" stroke-width="9" stroke-linecap="round"/>
-    <path d="M64 97H12M274 97H226M143 27V0M143 194V164" stroke="#111" stroke-width="3" stroke-linecap="round"/>
+  <g transform="translate(301 217) rotate(-8)">
+    <text x="0" y="0" fill="#111111" font-family="Comic Sans MS, Segoe Print, cursive" font-size="33" font-weight="900">ARE YOU</text>
+    <text x="28" y="35" fill="#111111" font-family="Comic Sans MS, Segoe Print, cursive" font-size="33" font-weight="900">NEXT?</text>
+    <path d="M-7 41C48 54 102 51 154 39" stroke="#111111" stroke-width="3" stroke-linecap="round"/>
   </g>
 
-  <g transform="translate(80 260)" font-family="Consolas, 'Courier New', monospace" font-size="15" font-weight="700">
-    <rect x="0" y="0" width="168" height="38" fill="#111"/>
-    <rect x="182" y="0" width="136" height="38" fill="#111"/>
-    <rect x="332" y="0" width="158" height="38" fill="#111"/>
-    <rect x="504" y="0" width="136" height="38" fill="#ff5b8d" fill-opacity="0.78"/>
-    <text x="22" y="25" fill="#fff8f5">PYTHON</text>
-    <text x="204" y="25" fill="#fff8f5">REACT</text>
-    <text x="354" y="25" fill="#fff8f5">DESIGN</text>
-    <text x="526" y="25" fill="#111">AI TOOLS</text>
+  <g transform="translate(518 245)">
+    <path d="M-2 0H312" stroke="#111111" stroke-opacity="0.22" stroke-width="2"/>
+    <text x="0" y="30" fill="#111111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" letter-spacing="6">YASHRAJ DESHMUKH</text>
+    <text x="0" y="58" fill="#111111" opacity="0.68" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="4">BUILD / DESIGN / AUTOMATE / CREATE</text>
   </g>
 
-  <g transform="translate(840 279)" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="800" letter-spacing="3">
-    <text x="0" y="0" fill="#111" opacity="0.64">CREATE. SHIP. REPEAT.</text>
-    <path d="M0 14H220" stroke="#111" stroke-opacity="0.32" stroke-width="2"/>
+  <g transform="translate(502 196) rotate(-9)">
+    <polygon points="0,21 22,0 52,8 58,41 30,58 3,46" fill="#ff6f9f" fill-opacity="0.62"/>
+    <path d="M18 32L25 17L35 35L44 23" stroke="#111111" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g transform="translate(166 304)" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="900" letter-spacing="3" fill="#111111" opacity="0.64">
+    <text x="0" y="0">CODE WITH TASTE</text>
+    <text x="212" y="0">MAKE IT USEFUL</text>
+    <text x="444" y="0">SHIP THE STORY</text>
+  </g>
+
+  <g opacity="0.2" stroke="#111111" stroke-width="1.4">
+    <path d="M0 277C144 235 259 247 382 279C574 329 736 293 889 240C1006 200 1110 205 1200 226"/>
+    <path d="M86 121H252M82 135H218M968 267H1156M988 285H1127"/>
   </g>
 </svg>
